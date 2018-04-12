@@ -1,0 +1,13 @@
+<%@ page language="java" contentType="text/html; charset=UTf-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE>
+<html>
+<%@include file="HeadSection.jsp" %>
+<body>
+<%@include file="Header.jsp" %>
+<section>
+<h2>View Employee By ID</h2>
+</section>
+<%@include file="Footer.jsp" %>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<!-- We have say which bean we are  instructing ioc to create the instance
+<bean id="myser" class ="com.hexa.service.SerImpl" >
+<!-- it will call the setDao method 
+<property name="dao" ref="mydao" ></property>            <!--  lazy initialisation
+</bean>
+  <bean id="mydao" class ="com.hexa.dao.FileDaoImpl">
+  <property name="fname" value="hexa.txt" ></property> 
+  </bean> 
+-->
